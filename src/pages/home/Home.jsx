@@ -6,7 +6,7 @@ import BannerData from "../../components/bannerData/BannerData"
 const Home = () => {
   return (
     <div>
-      <ButtonComponent btnText="SIGN UP" btnColor="white" />
+      <ButtonComponent btnText="SIGN UP" btnColor="white" btnBorderRadius={"10px"}/>
       <p>{BannerData.headerText}</p>
     </div>
   )
